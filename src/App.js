@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner2 from './components/Banner/Banner2';
+import Banner1 from './components/Banner/Banner1';
+import Banner3 from './components/Banner/Banner3';
+import Header from './components/Header/Header';
+import Home from './components/Home/HomeComp';
+import Title from './components/Title';
+import OurStory from './components/Our Story section/OurStory';
+import DanceClasses from './components/Classes /Classes';
+import PackageOffers from './components/Packages /PackageOffers';
+import Teachers from './components/Teachers/Teachers';
+import ContactForm from './components/Contact/ContactForm';
+import Footer from './components/Footer/Footer';
+import Classes from './components/Classes /Classes';
+
+import PhotoWithShadow from './components/PhotoWithShadow';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Header />
+      <Home />
+      <Banner1 />
+      <OurStory />
+      <Title title='dance classes' />
+      <DanceClasses />
+      <Banner2 />
+      <Title title='our prices' />
+      <PackageOffers />
+      <Title title='meet our teacher' />
+      <Teachers />
+      <Banner3 />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
