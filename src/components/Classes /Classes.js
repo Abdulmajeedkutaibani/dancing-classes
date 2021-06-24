@@ -1,6 +1,6 @@
 import React from 'react';
 import DanceClass from './DanceClass';
-import hiphopPhoto from './hiphop.svg';
+import hiphopPhoto from './hiphop.jpeg';
 import salsaPhoto from './salsa.svg';
 import jazzPhoto from './jazz-funk.svg';
 

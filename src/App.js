@@ -11,9 +11,8 @@ import Teachers from './components/Teachers/Teachers';
 import ContactForm from './components/Contact/ContactForm';
 import Footer from './components/Footer/Footer';
 import Classes from './components/Classes /Classes';
-
 import PhotoWithShadow from './components/PhotoWithShadow';
-
+import PictureAndDiv from './components/PictureAndDiv';
 function App() {
   return (
     <div className='container'>
