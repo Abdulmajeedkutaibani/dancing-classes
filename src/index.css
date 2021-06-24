@@ -398,7 +398,7 @@ nav ul li a:hover {
   }
 }
 /* Photo with Shadow */
-.abohm {
+.parent {
   margin: 10rem;
   position: relative;
   background: var(--primary-color);
@@ -475,7 +475,7 @@ nav ul li a:hover {
     flex-direction: column;
   }
 
-  .abohm {
+  .parent {
     position: relative;
     background: var(--primary-color);
     z-index: 8;
